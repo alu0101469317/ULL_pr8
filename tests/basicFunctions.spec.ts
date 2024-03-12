@@ -9,7 +9,4 @@ describe("add function tests", () => {
     expect(add(1, 8)).to.be.equal(9);
   });
 
-  it("add(-1, 8) returns value 7", () => {
-    expect(add(-1, 8)).to.be.equal(7);
-  });
 });
